@@ -48,7 +48,7 @@ The same camera that we calibrated above is used for capturing the images from t
 
 | Original image | Rectified image |
 |----------------|-----------------|
-|![distorted image](https://raw.githubusercontent.com/nitheeshkl/Udacity_CarND_AdvancedLaneLines/master/test_images/straight_lines1.jpg) | ![rectified image](https://raw.githubusercontent.com/nitheeshkl/Udacity_CarND_AdvancedLaneLines/master/test_images/straight_lines1.jpg) |
+|![distorted image](https://raw.githubusercontent.com/nitheeshkl/Udacity_CarND_AdvancedLaneLines/master/test_images/straight_lines1.jpg) | ![rectified image](https://raw.githubusercontent.com/nitheeshkl/Udacity_CarND_AdvancedLaneLines/master/test_images/straight_lines1_undistorted.jpg) |
 
 #### 2. Describe how (and identify where in your code) you used color transforms, gradients or other methods to create a thresholded binary image.  Provide an example of a binary image result.
 
