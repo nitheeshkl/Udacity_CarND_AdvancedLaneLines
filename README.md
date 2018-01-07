@@ -146,3 +146,10 @@ The different lighting condition and the combination of the road & lane colors p
 Apart from this, I also faced difficulties & error while unwarping a section which had a vehicle/shadow in the region of interest. the inclusion of such vechicle/shadows also result in linear vertical lines and when these are found close of the lane lines, they cause ambiguity, especially in cases when lane colors are dull compared to these objects. I tried several values for thresholding, but none seemed to have good effect in such scenarios. When I tried the pipeline on road condition in India, the pipeline failed completely since the lane markes vary in size, colors and continuity.
 
 The pipeline implemented here seems trivial and I hope to return to this problem and evaluate the current state-of-art on lane keeping/tracking.
+
+### Changes after review
+
+1. The readme file had wrongly linked the undistorted image link to the distorted image. This was corrected.
+2. src & dest poitns for the region of interest was changed based on the reviewer's suggestion. Along with corresponding modifications, this drastically improved the perforamce.
+3. The detected lane fit is now drawn on the undistorted image instead of the original distorted image.(I had previously misunderstood the rubric's requirement of 'original image' as the original distorted image from camera)
+4. In the result video, the lanes are drawn on the undistroted image
